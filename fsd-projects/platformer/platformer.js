@@ -32,22 +32,41 @@ $(function () {
 
     // TODO 2 - Create Platforms
 //createPlatform(xPos, yPos, Width, Height)
-createPlatform(200, 700, 100, 5, "red" )
-createPlatform(400, 600, 100, 5, "black" )
-createPlatform(300, 500, 100, 5, "white", 200, 400, 1 )
-createPlatform(500, 400, 100, 5, "yellow", 400, 700, 2 )
-createPlatform(800, 300, 100, 5, "purple", 600, 300, 2
-createPlatform(500, 400, 100, 5, 200, 100, 3)
-createPlatform(700, 500, 100, 5)
-createPlatform(900, 400, 100, 5, "blue")
+createPlatform(10, 600, 100, 5, "black" )
+createPlatform(900, 600, 100, 5, "black")
 createPlatform(800, 300, 100, 5, "black")
-
+createPlatform(500, 200, 100, 5, "white")
+createPlatform(700, 700, 100, 5, "blue")
+createPlatform(900, 600, 100, 5, "black")
+createPlatform(600, 400, 100, 5, "black")
+createPlatform(500, 600, 100, 5, "white")
+createPlatform(800, 300, 100, 5, "black")
+createPlatform(1000, 500, 100, 5, "black")
+createPlatform(900, 200, 100, 5, "blue")
+createPlatform(1300, 300, 100, 5, "blue")
+createPlatform(1200, 400, 100, 5, "black")
+createPlatform(1000, 500, 100, 5, "white")
+createPlatform(1200, 600, 100, 5, "blue", 1000, 1300, 4 )
+createPlatform(700, 900, 100, 5, "black")
+createPlatform(1200, 200, 100, 5, "black")
+createPlatform(1100, 700, 100, 5, "black")
+createPlatform(500, 600, 100, 5, "blue", 200, 400, 6 )
+createPlatform(300, 450, 100, 5, "black")
     // TODO 3 - Create Collectables
-
-
-
+//createCollectable("type", xPos, yPos, gravity?, bounce? Between 0-1, minX = null, maxX = null, speed = 1)
+//"type" can be 6 things... database diamond grace kennedi max steve
+createCollectable("database", 400, 400) //Sits Still
+createCollectable("database", 800, 300) //Sits Still
+createCollectable("diamond", 600, 100, 0.1)
+createCollectable("database", 1300, 500) //Sits Still
+createCollectable("database", 1000, 700) //Sits Still
     
     // TODO 4 - Create Cannons
+//createCannon("wall", pos, secondsX1000, width, height)
+createCannon("top", 700, 2015)
+createCannon("top", 1100, 1000)
+createCannon("right", 700, 2000)
+
 
 
     
